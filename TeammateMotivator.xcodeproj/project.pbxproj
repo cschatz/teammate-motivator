@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB02E629157807AB0019A099 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB02E628157807AB0019A099 /* CoreData.framework */; };
+		AB120B25159BC1790031CB21 /* CANewQuestionController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB120B24159BC1790031CB21 /* CANewQuestionController.m */; };
+		AB184B7E15782EF800603E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB184B7D15782EF800603E00 /* InfoPlist.strings */; };
+		AB184B8015782F0000603E00 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB184B7F15782F0000603E00 /* MainStoryboard.storyboard */; };
+		AB207B4816F116F700DF8949 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB207B4716F116F700DF8949 /* Default-568h@2x.png */; };
+		AB383D5516501C1C00D6445C /* CASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB383D5416501C1C00D6445C /* CASettingsViewController.m */; };
+		AB3C32EF164DCE36001BF5F3 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C32EE164DCE36001BF5F3 /* GraphViewController.m */; };
+		AB4ACEB915890C2800F68792 /* mediumicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4ACEB815890C2800F68792 /* mediumicon.png */; };
+		AB53CCE816AE03D7005FE3AD /* CAPrepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53CCE716AE03D7005FE3AD /* CAPrepViewController.m */; };
+		AB53CCEB16AE06E3005FE3AD /* CAAttendanceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53CCEA16AE06E3005FE3AD /* CAAttendanceDataController.m */; };
+		AB994434157828870044AE39 /* 17-bar-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994410157828870044AE39 /* 17-bar-chart.png */; };
+		AB994435157828870044AE39 /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994411157828870044AE39 /* 106-sliders.png */; };
+		AB994436157828870044AE39 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994412157828870044AE39 /* 112-group.png */; };
+		AB994437157828870044AE39 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994413157828870044AE39 /* 179-notepad.png */; };
+		AB994439157828870044AE39 /* bigicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994415157828870044AE39 /* bigicon.png */; };
+		AB99443A157828870044AE39 /* CAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994417157828870044AE39 /* CAAppDelegate.m */; };
+		AB99443B157828870044AE39 /* CAAssessmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994419157828870044AE39 /* CAAssessmentController.m */; };
+		AB99443C157828870044AE39 /* CAAttendanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB99441B157828870044AE39 /* CAAttendanceController.m */; };
+		AB99443D157828870044AE39 /* CADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB99441D157828870044AE39 /* CADetailViewController.m */; };
+		AB99443E157828870044AE39 /* CAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB99441F157828870044AE39 /* CAModel.m */; };
+		AB99443F157828870044AE39 /* CAQuestionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994421157828870044AE39 /* CAQuestionDetailController.m */; };
+		AB994440157828870044AE39 /* CAQuestionSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994423157828870044AE39 /* CAQuestionSelectController.m */; };
+		AB994441157828870044AE39 /* CAQuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994425157828870044AE39 /* CAQuestionTableViewController.m */; };
+		AB994442157828870044AE39 /* CATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994427157828870044AE39 /* CATabBarController.m */; };
+		AB994443157828870044AE39 /* CATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994429157828870044AE39 /* CATableViewController.m */; };
+		AB994444157828870044AE39 /* CATeamSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB99442B157828870044AE39 /* CATeamSelectController.m */; };
+		AB994445157828870044AE39 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB99442D157828870044AE39 /* CAViewController.m */; };
+		AB994447157828870044AE39 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB99442F157828870044AE39 /* grass.jpg */; };
+		AB994448157828870044AE39 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB994430157828870044AE39 /* icon.png */; };
+		AB994449157828870044AE39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB994431157828870044AE39 /* main.m */; };
+		ABA5B122151A8807002DF475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA5B121151A8807002DF475 /* UIKit.framework */; };
+		ABA5B124151A8807002DF475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA5B123151A8807002DF475 /* Foundation.framework */; };
+		ABA5B126151A8807002DF475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA5B125151A8807002DF475 /* CoreGraphics.framework */; };
+		ABC4D51716A0CA000027F2A0 /* AttendanceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4D51616A0CA000027F2A0 /* AttendanceRecord.m */; };
+		ABC4D51F16A0CA920027F2A0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4D51E16A0CA920027F2A0 /* Player.m */; };
+		ABC4D52416A0D42D0027F2A0 /* CADataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC4D52216A0D42D0027F2A0 /* CADataModel.xcdatamodeld */; };
+		ABC53E9B170DDDD9005E3340 /* badge-4.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC53E9A170DDDD9005E3340 /* badge-4.png */; };
+		ABC53E9D170E0AF8005E3340 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC53E9C170E0AF8005E3340 /* Default.png */; };
+		ABC53E9F170E0E64005E3340 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC53E9E170E0E64005E3340 /* Default@2x.png */; };
+		ABC7D64E15C086C80073FE02 /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7D64C15C086C80073FE02 /* play2.png */; };
+		ABC7D64F15C086C80073FE02 /* play3.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7D64D15C086C80073FE02 /* play3.png */; };
+		ABC7D65215C08A1C0073FE02 /* SSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC7D65115C08A1C0073FE02 /* SSTextView.m */; };
+		ABC9CEDF1581D91C00386ED4 /* AnswerChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC9CEDE1581D91C00386ED4 /* AnswerChoice.m */; };
+		ABC9CEE51581DA9600386ED4 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC9CEE41581DA9600386ED4 /* Scale.m */; };
+		ABC9CEE81581DAE800386ED4 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC9CEE71581DAE800386ED4 /* Question.m */; };
+		ABC9CEF01583A56900386ED4 /* questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABC9CEEF1583A56900386ED4 /* questions.txt */; };
+		ABCC805815813B9B0096C547 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCC805715813B9B0096C547 /* Team.m */; };
+		ABD54E8C164749A500D24472 /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD54E8B164749A500D24472 /* Rating.m */; };
+		ABD54E941647883D00D24472 /* BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD54E931647883D00D24472 /* BarGraphView.m */; };
+		ABF684C41586AA9600963411 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF684C31586AA9600963411 /* CustomTableCell.xib */; };
+		ABF684C71586ABC600963411 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF684C61586ABC600963411 /* CustomTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB02E628157807AB0019A099 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB120B23159BC1790031CB21 /* CANewQuestionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANewQuestionController.h; sourceTree = "<group>"; };
+		AB120B24159BC1790031CB21 /* CANewQuestionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANewQuestionController.m; sourceTree = "<group>"; };
+		AB184B7D15782EF800603E00 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB184B7F15782F0000603E00 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AB184B8A1578341200603E00 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		AB207B4716F116F700DF8949 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB383D5316501C1C00D6445C /* CASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASettingsViewController.h; sourceTree = "<group>"; };
+		AB383D5416501C1C00D6445C /* CASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASettingsViewController.m; sourceTree = "<group>"; };
+		AB3C32ED164DCE36001BF5F3 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		AB3C32EE164DCE36001BF5F3 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		AB4ACEB815890C2800F68792 /* mediumicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediumicon.png; sourceTree = "<group>"; };
+		AB53CCE616AE038E005FE3AD /* CAPrepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPrepViewController.h; sourceTree = "<group>"; };
+		AB53CCE716AE03D7005FE3AD /* CAPrepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPrepViewController.m; sourceTree = "<group>"; };
+		AB53CCE916AE06BD005FE3AD /* CAAttendanceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAttendanceDataController.h; sourceTree = "<group>"; };
+		AB53CCEA16AE06E3005FE3AD /* CAAttendanceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAttendanceDataController.m; sourceTree = "<group>"; };
+		AB994410157828870044AE39 /* 17-bar-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "17-bar-chart.png"; path = "contents/17-bar-chart.png"; sourceTree = SOURCE_ROOT; };
+		AB994411157828870044AE39 /* 106-sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "106-sliders.png"; path = "contents/106-sliders.png"; sourceTree = SOURCE_ROOT; };
+		AB994412157828870044AE39 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "112-group.png"; path = "contents/112-group.png"; sourceTree = SOURCE_ROOT; };
+		AB994413157828870044AE39 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "179-notepad.png"; path = "contents/179-notepad.png"; sourceTree = SOURCE_ROOT; };
+		AB994415157828870044AE39 /* bigicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigicon.png; path = contents/bigicon.png; sourceTree = SOURCE_ROOT; };
+		AB994416157828870044AE39 /* CAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAppDelegate.h; path = contents/CAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		AB994417157828870044AE39 /* CAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAppDelegate.m; path = contents/CAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		AB994418157828870044AE39 /* CAAssessmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAssessmentController.h; path = contents/CAAssessmentController.h; sourceTree = SOURCE_ROOT; };
+		AB994419157828870044AE39 /* CAAssessmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAssessmentController.m; path = contents/CAAssessmentController.m; sourceTree = SOURCE_ROOT; };
+		AB99441A157828870044AE39 /* CAAttendanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAttendanceController.h; path = contents/CAAttendanceController.h; sourceTree = SOURCE_ROOT; };
+		AB99441B157828870044AE39 /* CAAttendanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAttendanceController.m; path = contents/CAAttendanceController.m; sourceTree = SOURCE_ROOT; };
+		AB99441C157828870044AE39 /* CADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADetailViewController.h; path = contents/CADetailViewController.h; sourceTree = SOURCE_ROOT; };
+		AB99441D157828870044AE39 /* CADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADetailViewController.m; path = contents/CADetailViewController.m; sourceTree = SOURCE_ROOT; };
+		AB99441E157828870044AE39 /* CAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAModel.h; path = contents/CAModel.h; sourceTree = SOURCE_ROOT; };
+		AB99441F157828870044AE39 /* CAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAModel.m; path = contents/CAModel.m; sourceTree = SOURCE_ROOT; };
+		AB994420157828870044AE39 /* CAQuestionDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAQuestionDetailController.h; path = contents/CAQuestionDetailController.h; sourceTree = SOURCE_ROOT; };
+		AB994421157828870044AE39 /* CAQuestionDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAQuestionDetailController.m; path = contents/CAQuestionDetailController.m; sourceTree = SOURCE_ROOT; };
+		AB994422157828870044AE39 /* CAQuestionSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAQuestionSelectController.h; path = contents/CAQuestionSelectController.h; sourceTree = SOURCE_ROOT; };
+		AB994423157828870044AE39 /* CAQuestionSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAQuestionSelectController.m; path = contents/CAQuestionSelectController.m; sourceTree = SOURCE_ROOT; };
+		AB994424157828870044AE39 /* CAQuestionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAQuestionTableViewController.h; path = contents/CAQuestionTableViewController.h; sourceTree = SOURCE_ROOT; };
+		AB994425157828870044AE39 /* CAQuestionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAQuestionTableViewController.m; path = contents/CAQuestionTableViewController.m; sourceTree = SOURCE_ROOT; };
+		AB994426157828870044AE39 /* CATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATabBarController.h; path = contents/CATabBarController.h; sourceTree = SOURCE_ROOT; };
+		AB994427157828870044AE39 /* CATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATabBarController.m; path = contents/CATabBarController.m; sourceTree = SOURCE_ROOT; };
+		AB994428157828870044AE39 /* CATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATableViewController.h; path = contents/CATableViewController.h; sourceTree = SOURCE_ROOT; };
+		AB994429157828870044AE39 /* CATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATableViewController.m; path = contents/CATableViewController.m; sourceTree = SOURCE_ROOT; };
+		AB99442A157828870044AE39 /* CATeamSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATeamSelectController.h; path = contents/CATeamSelectController.h; sourceTree = SOURCE_ROOT; };
+		AB99442B157828870044AE39 /* CATeamSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATeamSelectController.m; path = contents/CATeamSelectController.m; sourceTree = SOURCE_ROOT; };
+		AB99442C157828870044AE39 /* CAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAViewController.h; path = contents/CAViewController.h; sourceTree = SOURCE_ROOT; };
+		AB99442D157828870044AE39 /* CAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAViewController.m; path = contents/CAViewController.m; sourceTree = SOURCE_ROOT; };
+		AB99442F157828870044AE39 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grass.jpg; path = contents/grass.jpg; sourceTree = SOURCE_ROOT; };
+		AB994430157828870044AE39 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = contents/icon.png; sourceTree = SOURCE_ROOT; };
+		AB994431157828870044AE39 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = contents/main.m; sourceTree = SOURCE_ROOT; };
+		AB994432157828870044AE39 /* TeammateMotivator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TeammateMotivator-Info.plist"; path = "contents/TeammateMotivator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AB994433157828870044AE39 /* TeammateMotivator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TeammateMotivator-Prefix.pch"; path = "contents/TeammateMotivator-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		ABA5B11D151A8806002DF475 /* TeammateMotivator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeammateMotivator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA5B121151A8807002DF475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABA5B123151A8807002DF475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABA5B125151A8807002DF475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABC4D51516A0C9FF0027F2A0 /* AttendanceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceRecord.h; sourceTree = "<group>"; };
+		ABC4D51616A0CA000027F2A0 /* AttendanceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceRecord.m; sourceTree = "<group>"; };
+		ABC4D51D16A0CA920027F2A0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		ABC4D51E16A0CA920027F2A0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		ABC4D52316A0D42D0027F2A0 /* CADataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CADataModel.xcdatamodel; sourceTree = "<group>"; };
+		ABC53E9A170DDDD9005E3340 /* badge-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-4.png"; sourceTree = "<group>"; };
+		ABC53E9C170E0AF8005E3340 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABC53E9E170E0E64005E3340 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABC7D64C15C086C80073FE02 /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play2.png; path = ../play2.png; sourceTree = "<group>"; };
+		ABC7D64D15C086C80073FE02 /* play3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play3.png; path = ../play3.png; sourceTree = "<group>"; };
+		ABC7D65015C08A1C0073FE02 /* SSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextView.h; sourceTree = "<group>"; };
+		ABC7D65115C08A1C0073FE02 /* SSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextView.m; sourceTree = "<group>"; };
+		ABC9CEDD1581D91C00386ED4 /* AnswerChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerChoice.h; sourceTree = "<group>"; };
+		ABC9CEDE1581D91C00386ED4 /* AnswerChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerChoice.m; sourceTree = "<group>"; };
+		ABC9CEE31581DA9600386ED4 /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		ABC9CEE41581DA9600386ED4 /* Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
+		ABC9CEE61581DAE800386ED4 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		ABC9CEE71581DAE800386ED4 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		ABC9CEEF1583A56900386ED4 /* questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions.txt; sourceTree = "<group>"; };
+		ABCC805615813B9B0096C547 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		ABCC805715813B9B0096C547 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		ABD54E8A164749A500D24472 /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		ABD54E8B164749A500D24472 /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		ABD54E921647883D00D24472 /* BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphView.h; sourceTree = "<group>"; };
+		ABD54E931647883D00D24472 /* BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphView.m; sourceTree = "<group>"; };
+		ABF684C31586AA9600963411 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		ABF684C51586ABC600963411 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		ABF684C61586ABC600963411 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA5B11A151A8806002DF475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB02E629157807AB0019A099 /* CoreData.framework in Frameworks */,
+				ABA5B122151A8807002DF475 /* UIKit.framework in Frameworks */,
+				ABA5B124151A8807002DF475 /* Foundation.framework in Frameworks */,
+				ABA5B126151A8807002DF475 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB06BB17151E5F6B00EDDE97 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				AB120B23159BC1790031CB21 /* CANewQuestionController.h */,
+				AB120B24159BC1790031CB21 /* CANewQuestionController.m */,
+				AB994420157828870044AE39 /* CAQuestionDetailController.h */,
+				AB994421157828870044AE39 /* CAQuestionDetailController.m */,
+				AB994422157828870044AE39 /* CAQuestionSelectController.h */,
+				AB994423157828870044AE39 /* CAQuestionSelectController.m */,
+				AB994424157828870044AE39 /* CAQuestionTableViewController.h */,
+				AB994425157828870044AE39 /* CAQuestionTableViewController.m */,
+			);
+			name = Questions;
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB06BB19151E5F7E00EDDE97 /* TeamsAndPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C32ED164DCE36001BF5F3 /* GraphViewController.h */,
+				AB3C32EE164DCE36001BF5F3 /* GraphViewController.m */,
+				ABD54E921647883D00D24472 /* BarGraphView.h */,
+				ABD54E931647883D00D24472 /* BarGraphView.m */,
+				AB53CCE916AE06BD005FE3AD /* CAAttendanceDataController.h */,
+				AB53CCEA16AE06E3005FE3AD /* CAAttendanceDataController.m */,
+				AB53CCE616AE038E005FE3AD /* CAPrepViewController.h */,
+				AB53CCE716AE03D7005FE3AD /* CAPrepViewController.m */,
+				AB99441C157828870044AE39 /* CADetailViewController.h */,
+				AB99441D157828870044AE39 /* CADetailViewController.m */,
+				AB994428157828870044AE39 /* CATableViewController.h */,
+				AB994429157828870044AE39 /* CATableViewController.m */,
+			);
+			name = TeamsAndPlayers;
+			path = contents;
+			sourceTree = "<group>";
+		};
+		AB06BB1A151E5FC500EDDE97 /* OverallNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				AB383D5316501C1C00D6445C /* CASettingsViewController.h */,
+				AB383D5416501C1C00D6445C /* CASettingsViewController.m */,
+				AB99442C157828870044AE39 /* CAViewController.h */,
+				AB99442D157828870044AE39 /* CAViewController.m */,
+				AB994416157828870044AE39 /* CAAppDelegate.h */,
+				AB994417157828870044AE39 /* CAAppDelegate.m */,
+				AB994426157828870044AE39 /* CATabBarController.h */,
+				AB994427157828870044AE39 /* CATabBarController.m */,
+			);
+			name = OverallNavigation;
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB06BB1B151E69CE00EDDE97 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				AB99442A157828870044AE39 /* CATeamSelectController.h */,
+				AB99442B157828870044AE39 /* CATeamSelectController.m */,
+				AB994418157828870044AE39 /* CAAssessmentController.h */,
+				AB994419157828870044AE39 /* CAAssessmentController.m */,
+				AB99441A157828870044AE39 /* CAAttendanceController.h */,
+				AB99441B157828870044AE39 /* CAAttendanceController.m */,
+			);
+			name = Ratings;
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB99444B157829350044AE39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABC4D52216A0D42D0027F2A0 /* CADataModel.xcdatamodeld */,
+				ABC7D65015C08A1C0073FE02 /* SSTextView.h */,
+				ABC7D65115C08A1C0073FE02 /* SSTextView.m */,
+				AB99441E157828870044AE39 /* CAModel.h */,
+				AB99441F157828870044AE39 /* CAModel.m */,
+				ABD54E8A164749A500D24472 /* Rating.h */,
+				ABD54E8B164749A500D24472 /* Rating.m */,
+				ABC4D51D16A0CA920027F2A0 /* Player.h */,
+				ABC4D51E16A0CA920027F2A0 /* Player.m */,
+				ABC4D51516A0C9FF0027F2A0 /* AttendanceRecord.h */,
+				ABC4D51616A0CA000027F2A0 /* AttendanceRecord.m */,
+				ABC9CEE61581DAE800386ED4 /* Question.h */,
+				ABC9CEE71581DAE800386ED4 /* Question.m */,
+				ABC9CEE31581DA9600386ED4 /* Scale.h */,
+				ABC9CEE41581DA9600386ED4 /* Scale.m */,
+				ABC9CEDD1581D91C00386ED4 /* AnswerChoice.h */,
+				ABC9CEDE1581D91C00386ED4 /* AnswerChoice.m */,
+				ABCC805615813B9B0096C547 /* Team.h */,
+				ABCC805715813B9B0096C547 /* Team.m */,
+			);
+			name = Models;
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+		ABA5B112151A8806002DF475 = {
+			isa = PBXGroup;
+			children = (
+				ABC53E9E170E0E64005E3340 /* Default@2x.png */,
+				ABC53E9C170E0AF8005E3340 /* Default.png */,
+				AB99444B157829350044AE39 /* Models */,
+				AB06BB1B151E69CE00EDDE97 /* Ratings */,
+				AB06BB1A151E5FC500EDDE97 /* OverallNavigation */,
+				AB06BB19151E5F7E00EDDE97 /* TeamsAndPlayers */,
+				AB06BB17151E5F6B00EDDE97 /* Questions */,
+				ABA5B128151A8807002DF475 /* Supporting Files */,
+				ABA5B14F151A88C7002DF475 /* Images */,
+				ABA5B120151A8807002DF475 /* Frameworks */,
+				ABA5B11E151A8806002DF475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA5B11E151A8806002DF475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA5B11D151A8806002DF475 /* TeammateMotivator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA5B120151A8807002DF475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB02E628157807AB0019A099 /* CoreData.framework */,
+				ABA5B121151A8807002DF475 /* UIKit.framework */,
+				ABA5B123151A8807002DF475 /* Foundation.framework */,
+				ABA5B125151A8807002DF475 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA5B128151A8807002DF475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC9CEEF1583A56900386ED4 /* questions.txt */,
+				AB184B8A1578341200603E00 /* utils.h */,
+				AB184B7D15782EF800603E00 /* InfoPlist.strings */,
+				AB184B7F15782F0000603E00 /* MainStoryboard.storyboard */,
+				AB994431157828870044AE39 /* main.m */,
+				AB994432157828870044AE39 /* TeammateMotivator-Info.plist */,
+				AB994433157828870044AE39 /* TeammateMotivator-Prefix.pch */,
+				ABF684C31586AA9600963411 /* CustomTableCell.xib */,
+				ABF684C51586ABC600963411 /* CustomTableViewCell.h */,
+				ABF684C61586ABC600963411 /* CustomTableViewCell.m */,
+			);
+			name = "Supporting Files";
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+		ABA5B14F151A88C7002DF475 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABC53E9A170DDDD9005E3340 /* badge-4.png */,
+				ABC7D64C15C086C80073FE02 /* play2.png */,
+				AB207B4716F116F700DF8949 /* Default-568h@2x.png */,
+				ABC7D64D15C086C80073FE02 /* play3.png */,
+				AB4ACEB815890C2800F68792 /* mediumicon.png */,
+				AB994410157828870044AE39 /* 17-bar-chart.png */,
+				AB994411157828870044AE39 /* 106-sliders.png */,
+				AB994412157828870044AE39 /* 112-group.png */,
+				AB994413157828870044AE39 /* 179-notepad.png */,
+				AB994415157828870044AE39 /* bigicon.png */,
+				AB99442F157828870044AE39 /* grass.jpg */,
+				AB994430157828870044AE39 /* icon.png */,
+			);
+			name = Images;
+			path = contents;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA5B11C151A8806002DF475 /* TeammateMotivator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA5B13B151A8807002DF475 /* Build configuration list for PBXNativeTarget "TeammateMotivator" */;
+			buildPhases = (
+				ABA5B119151A8806002DF475 /* Sources */,
+				ABA5B11A151A8806002DF475 /* Frameworks */,
+				ABA5B11B151A8806002DF475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeammateMotivator;
+			productName = iCoach;
+			productReference = ABA5B11D151A8806002DF475 /* TeammateMotivator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA5B114151A8806002DF475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Colin G. Schatz";
+			};
+			buildConfigurationList = ABA5B117151A8806002DF475 /* Build configuration list for PBXProject "TeammateMotivator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA5B112151A8806002DF475;
+			productRefGroup = ABA5B11E151A8806002DF475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA5B11C151A8806002DF475 /* TeammateMotivator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA5B11B151A8806002DF475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB994434157828870044AE39 /* 17-bar-chart.png in Resources */,
+				AB994435157828870044AE39 /* 106-sliders.png in Resources */,
+				AB994436157828870044AE39 /* 112-group.png in Resources */,
+				AB994437157828870044AE39 /* 179-notepad.png in Resources */,
+				AB994439157828870044AE39 /* bigicon.png in Resources */,
+				AB994447157828870044AE39 /* grass.jpg in Resources */,
+				AB994448157828870044AE39 /* icon.png in Resources */,
+				AB184B7E15782EF800603E00 /* InfoPlist.strings in Resources */,
+				AB184B8015782F0000603E00 /* MainStoryboard.storyboard in Resources */,
+				ABC9CEF01583A56900386ED4 /* questions.txt in Resources */,
+				ABF684C41586AA9600963411 /* CustomTableCell.xib in Resources */,
+				AB4ACEB915890C2800F68792 /* mediumicon.png in Resources */,
+				ABC7D64E15C086C80073FE02 /* play2.png in Resources */,
+				ABC7D64F15C086C80073FE02 /* play3.png in Resources */,
+				AB207B4816F116F700DF8949 /* Default-568h@2x.png in Resources */,
+				ABC53E9B170DDDD9005E3340 /* badge-4.png in Resources */,
+				ABC53E9D170E0AF8005E3340 /* Default.png in Resources */,
+				ABC53E9F170E0E64005E3340 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA5B119151A8806002DF475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB99443A157828870044AE39 /* CAAppDelegate.m in Sources */,
+				AB99443B157828870044AE39 /* CAAssessmentController.m in Sources */,
+				AB99443C157828870044AE39 /* CAAttendanceController.m in Sources */,
+				AB99443D157828870044AE39 /* CADetailViewController.m in Sources */,
+				AB99443E157828870044AE39 /* CAModel.m in Sources */,
+				AB99443F157828870044AE39 /* CAQuestionDetailController.m in Sources */,
+				AB994440157828870044AE39 /* CAQuestionSelectController.m in Sources */,
+				AB994441157828870044AE39 /* CAQuestionTableViewController.m in Sources */,
+				AB994442157828870044AE39 /* CATabBarController.m in Sources */,
+				AB994443157828870044AE39 /* CATableViewController.m in Sources */,
+				AB994444157828870044AE39 /* CATeamSelectController.m in Sources */,
+				AB994445157828870044AE39 /* CAViewController.m in Sources */,
+				AB994449157828870044AE39 /* main.m in Sources */,
+				ABCC805815813B9B0096C547 /* Team.m in Sources */,
+				ABC9CEDF1581D91C00386ED4 /* AnswerChoice.m in Sources */,
+				ABC9CEE51581DA9600386ED4 /* Scale.m in Sources */,
+				ABC9CEE81581DAE800386ED4 /* Question.m in Sources */,
+				ABF684C71586ABC600963411 /* CustomTableViewCell.m in Sources */,
+				AB120B25159BC1790031CB21 /* CANewQuestionController.m in Sources */,
+				ABC7D65215C08A1C0073FE02 /* SSTextView.m in Sources */,
+				ABD54E8C164749A500D24472 /* Rating.m in Sources */,
+				ABD54E941647883D00D24472 /* BarGraphView.m in Sources */,
+				AB3C32EF164DCE36001BF5F3 /* GraphViewController.m in Sources */,
+				AB383D5516501C1C00D6445C /* CASettingsViewController.m in Sources */,
+				ABC4D51716A0CA000027F2A0 /* AttendanceRecord.m in Sources */,
+				ABC4D51F16A0CA920027F2A0 /* Player.m in Sources */,
+				ABC4D52416A0D42D0027F2A0 /* CADataModel.xcdatamodeld in Sources */,
+				AB53CCE816AE03D7005FE3AD /* CAPrepViewController.m in Sources */,
+				AB53CCEB16AE06E3005FE3AD /* CAAttendanceDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB5C3D311520D8BD00D78B0A /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Teammate Motivator";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "contents/TeammateMotivator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "contents/TeammateMotivator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Motivator;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "47BB1554-9EC4-4679-83BE-15F2A33B9F47";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		AB5C3D321520D8BD00D78B0A /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TeammateMotivator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		ABA5B139151A8807002DF475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "contents/TeammateMotivator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "contents/TeammateMotivator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA5B13A151A8807002DF475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "contents/TeammateMotivator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "contents/TeammateMotivator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA5B13C151A8807002DF475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TeammateMotivator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABA5B13D151A8807002DF475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TeammateMotivator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA5B117151A8806002DF475 /* Build configuration list for PBXProject "TeammateMotivator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA5B139151A8807002DF475 /* Debug */,
+				ABA5B13A151A8807002DF475 /* Release */,
+				AB5C3D311520D8BD00D78B0A /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA5B13B151A8807002DF475 /* Build configuration list for PBXNativeTarget "TeammateMotivator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA5B13C151A8807002DF475 /* Debug */,
+				ABA5B13D151A8807002DF475 /* Release */,
+				AB5C3D321520D8BD00D78B0A /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC4D52216A0D42D0027F2A0 /* CADataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC4D52316A0D42D0027F2A0 /* CADataModel.xcdatamodel */,
+			);
+			currentVersion = ABC4D52316A0D42D0027F2A0 /* CADataModel.xcdatamodel */;
+			path = CADataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABA5B114151A8806002DF475 /* Project object */;
+}

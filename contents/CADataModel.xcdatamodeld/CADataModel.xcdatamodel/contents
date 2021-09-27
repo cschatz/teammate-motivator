@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AnswerChoice" representedClassName="AnswerChoice" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="scale" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Scale" inverseName="choices" inverseEntity="Scale" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="fname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ratingsGiven" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rating" inverseName="rater" inverseEntity="Rating" syncable="YES"/>
+        <relationship name="ratingsReceived" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rating" inverseName="playerRated" inverseEntity="Rating" syncable="YES"/>
+        <relationship name="team" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="members" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Question" representedClassName="Question" syncable="YES">
+        <attribute name="prompt" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relatedRatings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rating" inverseName="question" inverseEntity="Rating" syncable="YES"/>
+        <relationship name="scale" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Scale" inverseName="usedInQuestions" inverseEntity="Scale" syncable="YES"/>
+    </entity>
+    <entity name="Rating" representedClassName="Rating" syncable="YES">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="when" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="playerRated" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Player" inverseName="ratingsReceived" inverseEntity="Player" syncable="YES"/>
+        <relationship name="question" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="relatedRatings" inverseEntity="Question" syncable="YES"/>
+        <relationship name="rater" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Player" inverseName="ratingsGiven" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Scale" representedClassName="Scale" syncable="YES">
+        <relationship name="choices" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="AnswerChoice" inverseName="scale" inverseEntity="AnswerChoice" syncable="YES"/>
+        <relationship name="usedInQuestions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Question" inverseName="scale" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Player" inverseName="team" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AnswerChoice" positionX="-162" positionY="27" width="128" height="90"/>
+        <element name="Player" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="Question" positionX="250" positionY="45" width="128" height="90"/>
+        <element name="Rating" positionX="34" positionY="168" width="128" height="120"/>
+        <element name="Scale" positionX="72" positionY="9" width="128" height="75"/>
+        <element name="Team" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>
